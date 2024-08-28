@@ -1,14 +1,14 @@
-import createMiddleware from "next-intl/middleware";
-
+import createMiddleware from 'next-intl/middleware';
+ 
 export default createMiddleware({
-    // A list of all locales that are supported
-    locales: ["en", "vi"],
-
-    // Used when no locale matches
-    defaultLocale: "vi",
+// Danh sách tất cả các ngôn ngữ được hỗ trợ
+  locales: ['en', 'vi'],
+ 
+// Được sử dụng khi không có ngôn ngữ nào khớp
+  defaultLocale: 'en'
 });
-
+ 
 export const config = {
-    // Match only internationalized pathnames
-    matcher: ["/", "/(vi|en)/:path*"],
+// Chỉ khớp với các tên đường dẫn quốc tế
+  matcher: ['/', '/(vi|en)/:path*']
 };

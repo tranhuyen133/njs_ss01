@@ -1,5 +1,16 @@
 {
-    "HomePage": {
-        "title": "chào thế giới!"
-    }
+  "IndexPage": {
+    "title": "Ví dụ next-intl",
+    "description": "Chào mừng đến với ví dụ Quốc tế hóa Next.js (i18n)! Bản demo này giới thiệu sức mạnh của App Router và cách quản lý nội dung đa ngôn ngữ một cách liền mạch bằng next-intl."
+  },
+  "NotFoundPage": {
+    "title": "Không tìm thấy trang",
+    "description": "Ối! Có vẻ như bạn đã tìm thấy một trang không tồn tại. Đừng lo lắng, phép thuật quốc tế hóa của chúng tôi vẫn đang phát huy tác dụng ở các phần khác của ứng dụng. Hãy quay lại để khám phá thêm!"
+  },
+  "Navigation": {
+    "home": "Trang chủ"
+  },
+  "Footer": {
+    "copyright": "© 2024 Ứng dụng của bạn. Được bảo vệ bản quyền."
+  }
 }

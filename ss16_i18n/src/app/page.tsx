@@ -1,7 +1,5 @@
+import { redirect } from 'next/navigation';
 
-
-export default function Home() {
-  return (
-    <div>trang chủ</div>
-  );
+export default function RootPage() {
+  redirect('/en');
 }
