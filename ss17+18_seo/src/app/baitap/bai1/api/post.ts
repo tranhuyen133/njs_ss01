@@ -28,7 +28,7 @@ export default function handler(request: NextApiRequest, response: NextApiRespon
         id: 3,
         title: "officia porro iure quia iusto qui ipsa ut modi",
         url: "https://via.placeholder.com/600/24f355",
-        "thumbnailUrl": "https://via.placeholder.com/150/24f355"
+        thumbnailUrl: "https://via.placeholder.com/150/24f355"
       },
       {
        
@@ -54,9 +54,9 @@ export default function handler(request: NextApiRequest, response: NextApiRespon
       {
    
         id: 7,
-        "title": "officia delectus consequatur vero aut veniam explicabo molestias",
-        "url": "https://via.placeholder.com/600/b0f7cc",
-        "thumbnailUrl": "https://via.placeholder.com/150/b0f7cc"
+        title: "officia delectus consequatur vero aut veniam explicabo molestias",
+        url: "https://via.placeholder.com/600/b0f7cc",
+        thumbnailUrl: "https://via.placeholder.com/150/b0f7cc"
       },
       {
         

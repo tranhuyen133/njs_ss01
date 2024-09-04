@@ -1,4 +1,3 @@
-// app/posts/posts.tsx
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
 
@@ -14,7 +13,7 @@ export default function Posts() {
 
   useEffect(() => {
     async function fetchPosts() {
-      const response = await fetch('/api/posts');
+      const response = await fetch('/baitap/bai1/api/posts');
       const data: Post[] = await response.json();
       setPosts(data);
     }
